@@ -1,0 +1,278 @@
+.parisimageIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.blankLine {
+  margin: 0;
+}
+.div,
+.from,
+.parsaQwerty {
+  color: var(--studio-darkmode-allwhite-ffffff);
+}
+.parsaQwerty {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.02em;
+  font-family: var(--font-roboto);
+  text-align: left;
+}
+.div,
+.from {
+  position: absolute;
+  text-align: right;
+  display: inline-block;
+}
+.div {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-19xl);
+  line-height: 38px;
+  font-family: var(--font-baloo-bhai);
+  width: 90.92px;
+}
+.from {
+  top: 38px;
+  left: 37.92px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  width: 52.53px;
+}
+.details {
+  position: relative;
+  width: 90.92px;
+  height: 57px;
+  flex-shrink: 0;
+}
+.destinationDetails {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 73px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pariscard {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs);
+  height: 182px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.col1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-base);
+  background-color: transparent;
+  width: 25%;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.div1,
+.from1 {
+  position: absolute;
+  color: var(--studio-darkmode-allwhite-ffffff);
+  text-align: right;
+}
+.div1 {
+  top: 21px;
+  left: 0;
+  font-size: var(--font-size-19xl);
+  line-height: 38px;
+  font-family: var(--font-baloo-bhai);
+}
+.from1 {
+  top: 0;
+  left: 47.39px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  display: inline-block;
+  width: 52.53px;
+}
+.details1 {
+  position: relative;
+  width: 99.92px;
+  height: 59px;
+  flex-shrink: 0;
+}
+.destinationDetails1 {
+  position: absolute;
+  width: calc(100% - 0.59px);
+  top: 0;
+  right: 0.29px;
+  left: 0.29px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div2,
+.from2 {
+  position: absolute;
+  color: var(--studio-darkmode-allwhite-ffffff);
+  text-align: right;
+  display: inline-block;
+}
+.div2 {
+  top: 21px;
+  left: 0;
+  font-size: var(--font-size-19xl);
+  line-height: 38px;
+  font-family: var(--font-baloo-bhai);
+  width: 90.92px;
+}
+.from2 {
+  top: 0;
+  left: 38.39px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  width: 52.53px;
+}
+.details2 {
+  position: relative;
+  width: 90.92px;
+  height: 59px;
+  flex-shrink: 0;
+}
+.div3,
+.from3 {
+  position: absolute;
+  color: var(--studio-darkmode-allwhite-ffffff);
+  text-align: right;
+  display: inline-block;
+}
+.div3 {
+  top: 21px;
+  left: 0;
+  font-size: var(--font-size-19xl);
+  line-height: 38px;
+  font-family: var(--font-baloo-bhai);
+  width: 100.62px;
+}
+.from3 {
+  top: 0;
+  left: 48.09px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  width: 52.53px;
+}
+.details3 {
+  position: relative;
+  width: 100.62px;
+  height: 59px;
+  flex-shrink: 0;
+}
+.redBoatbox {
+  position: absolute;
+  top: 91px;
+  left: 139px;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  width: 354px;
+}
+.pearl72Yacht1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 1080px;
+  object-fit: cover;
+}
+.boatPictures {
+  position: absolute;
+  top: 62px;
+  left: 127px;
+  font-size: 40px;
+  letter-spacing: 0.02em;
+  display: flex;
+  color: #e9245f;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 366px;
+  height: 76px;
+}
+.redBoatboxParent {
+  position: relative;
+  background-color: #d32020;
+  width: 631px;
+  height: 182px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.blue {
+  position: absolute;
+  top: 79px;
+  left: 393px;
+  letter-spacing: 0.02em;
+}
+.blueWrapper {
+  position: relative;
+  background-color: #211ee4;
+  width: 870px;
+  height: 182px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-align: right;
+}
+.cardsContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: -16px;
+  margin-right: -16px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--studio-darkmode-allwhite-ffffff);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 960px) {
+  .col1 {
+    padding: var(--padding-base);
+    box-sizing: border-box;
+    width: 50%;
+  }
+  .cardsContainer {
+    flex-wrap: wrap;
+    margin: -16px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .col1 {
+    width: 100%;
+  }
+}
